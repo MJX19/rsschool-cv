@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+    border-top: solid 50px rgb(12, 12, 221);
+}
+
+/* header-avatar*/
+
+header{
+    margin-right: 50px;
+}
+
+.header{
+    max-width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar{
+    background-image: url(avatar.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    min-width: 250px;
+    min-height: 250px;
+    border:solid 5px blue;
+}
+
+h1{
+    margin: 30px 0 0;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.icons{
+    width: 100%;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-contacts{
+    width: 50px;
+    padding: 30px 0;
+    transition: all 0.2s;
+}
+
+.icon-contacts:hover{
+    width: 70px;
+    padding: 20px 0;
+}
+
+.discord:hover{
+    width: 67px;
+    padding: 20px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main_menu{
+    text-align: center;
+}
+
+.menu{
+    line-height: 40px;
+    font-size: 24px;
+    color: #000;
+    border-bottom: solid 1px #000;
+    transition: all .2s;
+}
+
+.menu:hover{
+    font-size: 30px;
+    border-bottom: solid 2px rgb(0, 15, 228);
+}
