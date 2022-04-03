@@ -88,3 +88,73 @@ a{
     font-size: 30px;
     border-bottom: solid 2px rgb(0, 15, 228);
 }
+
+/*main content*/
+
+h2{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 26px;
+    margin:20px 0 20px 50px;
+    border-bottom: solid 2px rgb(0, 15, 228);
+}
+
+h3{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 24px;
+    margin:20px 0 20px 80px;
+    border-bottom: solid 2px rgb(0, 15, 228);
+}
+
+p, li{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.coding_skills{
+    list-style: circle;
+    margin-left: 20px;
+}
+
+code{
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.code_row{
+    display: block;
+}
+
+.row2{
+    margin-left: 20px;
+}
+
+.row3{
+    margin-left: 40px;
+}
+
+.row4{
+    margin-left: 60px;
+}
+
+.row5{
+    margin-left: 40px;
+}
+
+.row6{
+    margin-left: 60px;
+}
+
+.row7{
+    margin-left: 80px;
+}
+
+.row8{
+    margin-left: 80px;
+}
+
+.lang_skills{
+    list-style: circle;
+    margin-left: 20px;
+}
